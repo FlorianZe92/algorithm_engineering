@@ -1,0 +1,23 @@
+Moore's Gesetz beschrieb den "Miniaturization Trend", welcher in etwa besagte, dass sich die Anzahl der Transistoren innerhalb eines 
+Computers alle 2 Jahre verdoppelt, und dies indirekt dann auch für die Performance eines Computers gilt.
+
+Dieser Trend konnte einige Jahre beobachtet werden, doch mittlerweile scheint dies ausgeschöpft worden zu sein, weshalb 
+man sich mit weiteren Optionen genauer beschäftigen muss, um die Performance weiterhin verbessern zu können.
+
+Hierfür gibt es die drei Säulen:
+
+Software
+Die Entwicklungszeitminimierung hat zu Performanceeinbußen geführt, welche nun optimiert werden können.
+(z.B. parallele Prozessoren + Vektoreinheiten in den Fokus setzen)
+
+Algorithmen
+Durch das Anpassen des Algorithmuses an die jeweilige Hardware, kann ein großer Speed Up erreicht werden.
+(Typisches Beispiel ist die Verbesserung des Maximum Flow Problems)
+
+Hardware
+Hier könnte man bestimmte Hardware entwerfen, welche in einer bestimmten Domain optimal arbeitet.
+Zudem kann es sinnvoll sein, die Anzahl an parallel arbeitenden Prozessoren zu erhöhen.
+
+
+Die Graphik beschreibt genau dieses Phänomen und dass sich der historische Trend nach Moore's Gesetz einem Ende neigt
+und weist hierbei auf die heutigen Grundsäulen hin, zur Optimierung der Performance.

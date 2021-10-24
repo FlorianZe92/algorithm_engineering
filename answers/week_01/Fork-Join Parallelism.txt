@@ -1,0 +1,6 @@
+Dieses Modell beschreibt die Arbeitsweise innerhalb von OpenMP.
+Es liegt ein Masterthread vor, welcher die gesamte Ausführungszeit vorliegt.
+Dieser Thread erstellt dann weitere Threads (Fork), sobald eine parallele Region betreten wird.
+Verlässt man den parallelen Bereich, so werden die Threads wieder eingesammelt (Join) und es
+läuft nur der Masterthread weiter (entspricht sequentiellen Anteilen).
+Dies kann wiederholt in einem Programm auftreten.
