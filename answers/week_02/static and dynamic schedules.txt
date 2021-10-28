@@ -1,0 +1,7 @@
+Static: Jeder Thread bekommt einen festen Arbeitsteil zugewiesen.
+Dynamic: Während der Laufzeit des Programms wird dynamisch entschieden, welcher Thread das nächste "Arbeitspäckchen" bearbeitet
+
+Schedule(dynamic) ist hilfreich, wenn der Arbeitsaufwand der "Päckchen" unterschiedlich groß ist.
+Bei gleichem Arbeitsaufwand ist Schedule(static) für die Performance besser.
+
+Es ist auch möglich die Größe der "Arbeitspäckchen - Chunks" zu variieren.
