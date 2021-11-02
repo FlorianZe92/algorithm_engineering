@@ -1,0 +1,2 @@
+Jeder Thread muss diese Barriere erreichen, bis das Programm weiter ausgeführt wird.
+Kann sinnvoll für Synchronisationszwecke sein.

@@ -1,0 +1,9 @@
+Aus der Bibliothek wird thread und mutex benötigt.
+Definieren einer Funktion (thunk), welche alle Threads durchführen.
+Ihre Thread_Id wird dann bei der For-Schleife zur Aufteilung genutzt.
+Mutex verhindert race conditions bei Zugriff auf geteilte Summenvariable.
+Im Main Programm wird ein Vektor für Threads erstellt. (Dient dazu, diese dann am Ende wieder zu joinen)
+Jeder Thread ruft die Funktion thunk mit seiner Thread_ID auf. 
+(Vorsicht: Referenz bei sum und mutex angeben – Zeiger auf interne Variable)
+Die jeweiligen Threads werden auf den zugehörigen Vektor gepushed, sodass diese dann gejoint werden können.
+Berechnung von Pi erfolgt dann nach der Rechteck Methode.
