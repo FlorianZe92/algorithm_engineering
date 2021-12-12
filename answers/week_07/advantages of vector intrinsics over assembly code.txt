@@ -1,0 +1,7 @@
+Assembly: Explizite Ansagen, wohin Vektoren in Registern gespeichert werden sollen
+
+Intrinsics Funktionen sind portabler zwischen verschiedenen Compilern (Sind an sich C Funktionen – valider C++ Code)
+Vector Intrinsics: Deutlich einfach zu lernen / Deutlich einfacher zu verwenden / Code deutlich nachvollziehbarer
+
+Vector Instrinsics führt im Endeffekt assembly Instruktionen aus.
+Mit den Optimierungsflag generiert der compiler normalerweise ein one-to-one mapping zwischen intrinsics Funktionen und den dazugehörigen assembly Instruktionen.

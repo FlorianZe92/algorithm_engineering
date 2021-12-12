@@ -1,0 +1,14 @@
+In der Kombinierungsphase werden bei steigender Arraygröße weniger Threads eingesetzt.
+Dem soll mit Multithreaded Merging entgegengewirkt werden.
+
+Situation:
+Man hat zwei sortierte Arrays vorliegen und man möchte die beiden Arrays miteinander mergen.
+
+Vorgehensweise:
+Im größeren Array betrachtet man den Median (Mitte des Arrays)
+Mit binärer Suche findet man die Elemente welche kleiner/größer als der Median sind.
+Diese Subarrays könnten dann gemerged werden.
+Dies ist separat in verschiedenen Threads möglich
+Hierbei hat man dann nicht die „teure“ Kombinierungsphase, welche in diesem Fall nur von einem Thread ausgeführt werden würde.
+Rekursives weitergehen ist hierbei dann möglich.
+Schnelle Divide Phase und keine Combine Phase (dadurch sehr schnell)

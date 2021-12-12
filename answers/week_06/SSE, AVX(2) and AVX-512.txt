@@ -1,0 +1,13 @@
+Je nach verwendeter CPU hat man verschiedene Instruktionssätze vorliegen.
+Hierbei haben die verwendetenVektoren eine unterschiedliche Länge, je nach Instruktionssatz.
+SSE: 		128 Bit
+AVX2:		256 Bit
+AVX 512:	512 Bit
+
+Hinweis: AVX2 spezifischer Code könnte auch mit AVX 512 ausgeführt werden, sobei hierbei dann nicht von der größeren Vektorlänge profitiert wird. 
+
+Register:
+SSE:		xmm0 - xmm15
+AVX2:		ymm0 - ymm15
+AVX512: 	zmm0 - zmm31
+

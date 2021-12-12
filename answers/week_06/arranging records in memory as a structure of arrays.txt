@@ -1,0 +1,11 @@
+Structure of Arrays: Anordnung der Objekte anhand ihrer Koordinaten (zunächst alle x-Koordinaten der Objekte, dann folgen die anderen Koordinaten analog)
+
+Diese Struktur ist dann hilfreich, wenn man Operationen für eine bestimmte Koordinate der Objekte durchführt.
+(Stichwort: Vektorisierbar)
+
+Nachteil: Möchte man bei dieser Struktur auf die Attribute (x,y,z - Koordinate) eines Objektes zugreifen, so würden diese Informationen verstreut im Speicher liegen.
+(Lokalität von einzelnen Objekten somit nicht vorhanden)
+
+Lohnenswert: Möchte man die Elemente eines Attributes haben (z.B. kleinste x-Koordinate), so lohnt sich structure of Arrays, da es besser vektorisierbar ist.
+(Bandbreite kann hierbei optimal genutzt werden)
+

@@ -1,0 +1,5 @@
+IPC entspricht dem Verhältnis von Instruktionen zu Zyklen bei Betrachtung der Arbeitsweise eines Algorithmuses.
+
+Eine hohe IPC deutet auf eine effiziente CPU Verwendung hin (Instruction Level Parallelism wird gut genutzt)
+
+IPC heißt nicht dass der Algorithmus gut ist, sondern die Implementierung effizient ist.

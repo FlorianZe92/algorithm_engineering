@@ -1,0 +1,15 @@
+<vector_size>
+Sagt aus, welcher Vektor hierbei zurückkommt. 
+SSE: mm für 128 Bit Vektor
+AVX2: mm256 für 256 Bit Vektor
+Es sind aber auch 128 Bit Vektoren bei „neuerem“ Instruktionssatz denkbar.
+
+<operation>
+Hier wird die Art der Berechnung vorgegeben.
+(Art der Operation, welche die intrinsische Funktion ausführen soll)
+
+<suffix>
+Datentyp von Eingabevektor.
+pd steht für Double Vektoren.
+ps steht für Float Vektoren.
+ep steht für Integer Vektoren. (Verschiedene Größen möglich)

@@ -1,0 +1,8 @@
+Loop Unrolling bewirkt, dass innerhalb einer for-Schleife mehrere Instruktionen ausgeführt werden.
+Hoffnung hierbei ist, dass Instruction Level Parallelism hierdurch erleichtert wird.
+
+Vorsicht:
+Es könnte hierdurch auch die Laufzeit verlängert werden, da z.b. zuviel zusätzlicher Speicher im Instruktionscache benöitigt wird und eine
+zu große Nachfrage an Registern in der CPU entstehen könnte.
+
+Diese Abwägungen müssen je nach CPU Architektur getroffen werden. 

@@ -1,0 +1,7 @@
+Datentypen: Float/Double/Integer
+Integer Vektoren können unterschiedlich interpretiert werden (B/short/int/long long / doublequadword)
+Die folgenden Vektoren beziehen sich auf den Instruktionssatz AVX2 
+(Vektoren sind die gleichen wie bei SSE, aber man kann mehr damit machen, bzw. ist die Vektorenlänge größer)
+__m256 – Vektor mit 8 Floats (32 bit pro Float)
+__m256d – Vektor mit 4 Doubles (64 bit pro Double)
+__m256i: Vektor mit 256 Bit // i steht für Integer Vektor (kann signed oder unsigned sein)

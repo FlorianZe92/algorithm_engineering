@@ -1,0 +1,14 @@
+Insturction Level Parallelism bedeutet, dass mehrere Instruktionen simultan auf einem CPU Kern ausgeführt werden können.
+
+Möglichkeiten hierbei:
+
+Mehrere Instruktionen werden pro Taktzyklus gleichzeitig gestartet/ausgeführt werden. (Auf verschiedenen functional units)
+
+Superscalar (Mehrere Instruktionen können gleichzeitig bei jedem Taktzyklus starten)
+ 
+Out of Order Execution (Programm wird in Maschinencode übersetzt, aber die exakte Ausführung auf der CPU (z.B. Vertauschen von Instruktionen) wird intern gemacht)
+
+Branch Prediction (Erraten, ob ein bestimmter Branch gewählt wird)
+
+Speculative Execution (Ausführen der Operationen, obwohl noch nicht klar ist, ob die Branch Prediction korrekt war) 
+Hierdurch Nutzung von Instruction-Level Parallelism (CPU soll nicht Idle sein – Worst Case: Neuberechnung auf korrektem Branch)
