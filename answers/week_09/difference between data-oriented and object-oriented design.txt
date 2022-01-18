@@ -1,0 +1,14 @@
+Cache Effiziente Programme sollen hierdurch erstellt werden
+Hauptunterschied: Fokus auf Performance bei Data-Oriented Design
+
+Data Oriented Design
+Man schaut sich an, was herauskommen soll. (Man arbeitet von hinten, indem man das „final object“ betrachtet)
+Rechenprozess wird überlegt, welcher aus den Input Bytes die gewünschten Outputs Byte erstellt. (So schnell/effizient wie möglich)
+Structure of Arrays für DOD (Das einzelne Objekt ist auf die einzelnen Arrays verteilt)
+Funktionen hierbei haben generischen Nutzen (einfachere Funktionen, welche auf großen Datenmengen angewandt werden können)
+Vektorinstruktionen hierbei gut nutzbar (somit einfach zu parallelisieren)
+
+Object Oriented Design
+Man hat z.B. viele Objekte im Speicher, welche gemerged werden müssten für den gewünschten Output
+
+

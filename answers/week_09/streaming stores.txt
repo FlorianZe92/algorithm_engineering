@@ -1,0 +1,13 @@
+Allgemeine Frage: Wie kann man Elemente von der CPU in den RAM zurückspeichern?
+
+Normal Stores: Man geht durch die komplette Cache Hierarchie bis in den RAM hinein.
+Streaming Stores: Man speichert die Elemente direkt in den RAM hinein.
+
+Hilfreich, wenn man weiß, dass die gewünschten Daten nicht mehr gebraucht werden und somit direkt in den RAM zurückgespeichert werden sollen
+Hierdurch spart man Cache für andere Daten
+
+Bessere Performance hierdurch, wenn folgende Punkte erfüllt sind:
+Die Elemente, welche man in dem RAM speichern möchte dürfen vorher nicht gelesen werden, bevor darauf geschrieben wird.
+(Angenommen es liegt im Cache würde es zu einem Konflikt kommen)
+Die Daten werden in naher Zukunft nicht mehr benötigt
+Der Code ist Memory-Bound (Cache zu sehr ausgelastet)

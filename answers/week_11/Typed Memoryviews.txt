@@ -1,0 +1,3 @@
+Hierdurch kann die Übergabe von Python Arrays / Numpy Arrays an Cython deutlich vereinfacht werden.
+Es wird hierbei dann der Datentyp mit der zugehörigen Dimension angegeben.
+(Dies ermöglich einen großen Speed Up)

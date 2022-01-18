@@ -1,0 +1,10 @@
+Ein Bucket kann nur eine bestimmte Zahl an Cachelines „halten“
+(N-way associative bedeutet, dass hier N Cache Lines hineinpassen in ein Bucket)
+
+Wird trotzdem eine Cacheline in ein volles Bucket geladen, so muss ein belegter Platz „frei“ gemacht werden, was einem Cache Conflict entspricht.
+Ungünstiger Speicherzugriff könnte bewirken, dass auf einen vollen Bucket gespeichert werden soll, obwohl die anderen Buckets noch Platz frei haben.
+
+Dies kann sich dann stark auf die Performance auswirken
+Hash Adresse entspricht im Endeffekt einer bestimmten Module Funktion, 
+weshalb z.B. bei einer ungünstigen Wahl der Schrittweite innerhalb einer for-Schleife stehts auf das selbe Bucket zugegriffen werden würde.
+(Hinweis: Stride 1 verwenden um doe lokale Lokalität zu optimieren und um derartige Cache Conflicts zu vermeiden)

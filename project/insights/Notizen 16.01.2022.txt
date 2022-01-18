@@ -1,0 +1,25 @@
+CSV Writter/Reader geschrieben.
+Daten so angepasst, dass x/y Koordinate in CSV Datei stehen.
+
+Dinosaurier Datei bereinigt. (Da war ein falscher Wert drin)
+
+Aktuell noch etwas "unschöne" Lösung mit Wert (0/0)
+
+Beobachtung: Code läuft binnen weniger Momente durch.
+
+
+Bedingung: dis_new < 2
+Dino: Perfekt (100.000)
+Less Angled Blob: Teilkreise (10.000.000)
+Random Cloud: Perfekt (10.000.000)
+Slanted Less: Zittrige Kreisform (100.000.000)
+
+Verwendung von dis_new<1 ergibt bei Slanted Less einen perfekten Kreis.
+(Mit dieser Option scheint es auch sinnvoll rumzuspielen.)
+
+Angled Blob: Datensatz bereinigt (Nur Werte im x/y Bereich zwischen 0 und 100 zugelassen)
+Liefert bei 5.000.000 gute Ergebnisse. (dis_new < 1)
+
+
+
+

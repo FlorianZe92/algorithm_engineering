@@ -1,0 +1,13 @@
+Intel Core i7
+
+Speicherhierarchie von Caches:
+
+L1 Cache (Data Cache und Instruktions Cache wird hier unterschieden)
+L2 Unified Cache (Für Instruktionen und für Daten)
+L3 Cache unified Cache (Geteilt zwischen allen Kernen)
+
+Eigenschaften der verschiedenen Caches:
+Latenz: L1 Cache (4 Taktzyklen) / L2 Cache (10 Taktzyklen) / 40 – 75 Taktzyklen
+Speicher: L1 Cache: 32 KB / L2 Cache: 256 KB / L3 Cache: 8 MB
+Cache Line: 64 Byte groß (Unterschiedliche Anzahl hiervon, dann je nach Cache Art)
+In einem Bucket können dann bestimmte Blockanzahlen behalten werden. (Je nach Cache Art)

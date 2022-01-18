@@ -1,0 +1,11 @@
+-Wall
+Hierdurch sind alle Warnings Nachrichten des Compilers angeschaltet
+
+-g
+Debugger Informationen werden ins Programm geschrieben.
+
+-fsanitize=address
+Hierdurch kann man Out-of-Bounds Access (z.B. außerhalb von Array) / use-after-free / memory leaks Fehler erkennen.
+
+-fsanitize=undefined
+Zur Laufzeit kann festgestellt werden, wenn das Programm ein undefiniertes Verhalten hat.

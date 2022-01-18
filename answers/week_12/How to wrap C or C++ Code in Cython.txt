@@ -1,0 +1,22 @@
+Zuvor wird benötigt:
+Header Datei (Deklarieren von Funktion)
+Definieren von Funktion in cpp Datei
+
+Ziel: Diese FUnktion soll nun in Python genutzt werden, indem man eine Variable übergibt.
+
+Vorgehensweise.
+
+pyx Datei hierfür erstellen (Datentyp importieren)
+Compilerdirektiven zu Beginn niederschreiben:
+language = c++ (Hinweis auf C++ Code geben)
+sources = pi.cpp (Source Datei mit angeben)
+extra_compile_args = -fopenmp –fast-math
+extra_links_args = -fopenmp 
+
+Man muss Cython "erläutern", welche Funktionalität man auf dem pi Header verwenden möchte.
+cdef extern from „pi.h“ (Funktionsdeklaration angeben)
+Schnittstelle wird hierdurch angegeben
+
+def Funktion dient für den Aufruf in Python. Hierbei wird dann auf die Funktion in C++ zugegriffen.
+Kompilieren von Cython Datei.
+Dann kann die Funktion (aus C++) innerhalb des Python Codes genutzt werden.

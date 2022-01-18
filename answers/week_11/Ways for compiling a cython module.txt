@@ -1,0 +1,18 @@
+Möglichkeit 1:
+Funktion herausschreiben und kompilieren mit cythonize.  (z.B.: cythonize -i -a compute_pi.pyx)
+Dann dies mittels Importfunktion verwenden
+.py/.pyx wird in C/C++ Datei umgewandelt.
+Dieses Extension Modul kann dann in Python importiert werden
+
+Möglichkeit 2:
+Mittels pyximport wird das Programm automatisch rekompiliert, wenn man ein .pyx module verwendet.
+Folgende Code Zeilen mit einbauen in Python Code:
+import pyximport
+pyximport.install()
+
+Möglichkeit 3:
+Verwendung von Jupyter Notebooks
+Jupyter Notebooks supporten Cython sehr gut.
+%load_ext cython (Hierdurch kann man nun Cython verwenden)
+Hat man eine Zelle, welche Cython Code verwenden soll, so schreibt man zu Beginn der neuen Zelle %%cython.
+Verwendung von %%cython -a: Report wird angezeigt mit Anteile von Python in betrachteter Funktion.
