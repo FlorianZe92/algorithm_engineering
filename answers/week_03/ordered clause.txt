@@ -1,7 +1,0 @@
-Implementierung: ordered bei pragma omp parallel angeben // im späteren Verlauf omp ordered aufrufen.
-For-Schleife wird sequentiell ausgeführt für die darauffolgende Region (in dem Fall die if-Abfrage)
-Man befürchtet meist einen ineffizienten Algorithmus hierdurch (Stimmt so aber nicht)
-Ausführung in sequentiellem Teil in selber Reihenfolge, wie durch die for-Schleife vorgegeben ist.
-Race Conditions werden hierdurch vermieden.
-Sinnvoll wenn geordnete Reihenfolge für nicht rechenintensive Aufgabe benötigt wird 
-

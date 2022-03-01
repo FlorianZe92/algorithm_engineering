@@ -1,7 +1,0 @@
-Compute-bound: Bottleneck bei der Berechnung ist die CPU
-Es wird kaum auf Arbeitsspeicher hierbei zugegriffen und CPU ist bei den Berechnungen "überlastet"
-
-Bandwitdh-bound: Bottleneck bei der Berechnung ist der Speicherzugriff
-Beispiel: Man greift auf die Elemente einer sehr großen Matrix zu und diese Elemente sollen aufsummiert werden. (CPU wird hierbei gering genutzt)
-
-Für Programme, welche den Cache optimal nutzen, ist die bandwidth-bound von besonderem Interesse. (Daten hierdurch schneller zur CPU bekommen)

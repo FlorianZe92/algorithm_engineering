@@ -1,8 +1,0 @@
-def,cdef und cpdef unterscheiden sich darin, für welche Programmiersprache die jeweilige Funktion ausgelegt ist.
-
-def: Ganz normale Pythonfunktion
-cdef: Funktion kann nur in Cython verwendet werden.
-cpdef: Diese Funktion kann in Python und in Cython aufgerufen werden.
-
-Hinweis: Bei cdef/cpdef kann wie in C der Rückgabetyp angegeben werden.
-

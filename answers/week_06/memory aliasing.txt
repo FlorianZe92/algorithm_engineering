@@ -1,5 +1,0 @@
-Werden an eine Funktion mehrere Pointer übergeben, so kann es für den Compiler unklar sein, ob diese Pointer auf den selben Speicherbereich zeigen, bzw. eine
-Überlappung der Speicherbereiche vorliegt.
-Ist man sich darüber bewusst, dass diese Speicherbereiche nicht überlappen, so kann der Compiler davon profitieren, wenn man ihm das vorab mitteilt (restricted pointer)
-Hierdurch wird der ausgeführte Code performanter und ist einfacher vektorisierbar für den Compiler.
-(Es ergeben sich somit weitere Optimierungsmöglichkeiten für den Compiler)

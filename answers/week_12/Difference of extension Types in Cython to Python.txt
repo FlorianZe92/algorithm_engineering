@@ -1,9 +1,0 @@
-cdef zum Erstellen einer Klasse in Cython.  (Hierdurch Übersetzung in Extension Type)
-
-Attribute in Cython müssen direkt angegeben werden. (Welche intern in Klasse verwendet werden sollen)
-
-Für Zugriff von Python aus benötigt man readonly oder public Attribut
-
-Es können auch weitere Cythonklassen als Attribut gesetzt werden. (Somit verschiedenste Datenstrukturen möglich)
-
-Performant wie ein struct in C, wenn man alles korrekt implementiert.(Großer Speed Up Vorteil)

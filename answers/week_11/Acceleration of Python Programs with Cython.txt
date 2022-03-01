@@ -1,9 +1,0 @@
-Beschleunigungsmöglichkeit 1:
-Überhaupt erstmal die Grundfunktion über Cython laufen lassen. (Hierbei auch schon Speed Up möglich)
-
-Beschleunigungsmöglichkeit 2:
-Verwendung von Cython Compiler Direktiven
-
-Beschleunigungsmöglichkeit 3:
-Variablentypen im Cython Code hinzufügen. (Verwendung von cdef)
-Variablen müssen dann vor der Verwendung definiert werden

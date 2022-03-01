@@ -1,6 +1,0 @@
-Man kann mehrere CPU’s haben
-Nun greifen beide CPU’s auf die gleiche Cacheline zu (aber z.B. auf andere Stelleinnerhalb der Cache Line)
-Updates sind notwendig, sobald eine Veränderung durchgeführt wird
-Problem: Cacheline muss also immer geupdated werden bei Veränderungen
-Sonst könnte es zu Cache Inkohärenz kommen (Prozessoren würden nicht die aktuelle Cacheline enthalten)
-Dies ist im Allgemeinen ungünstig, da man die veränderte Variable vielleicht auch gar nicht benötigt in dem anderen Thread

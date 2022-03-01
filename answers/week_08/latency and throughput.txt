@@ -1,8 +1,0 @@
-Typische Performance-Kennzahlen (Hauptziel: Performanten Code schreiben)
-Je nach verwendeter Hardware, hat man andere Kennzahlen
-Latency: Es dauert x Taktzyklen, bis das Ergebnis der Intrinsics bereitsteht.
-Througput: Anzahl von Zyklen, die man warten muss, bis man eine neue Intrinsics aufrufen kann. 
-Dies resultiert daraus, dass zwei Einheiten vorliegen, welche die FMA Operationen ausführen können. 
-Möchte man die Latenz „verstecken“, so lohnt sich sehr stark „Softwarepipelining“. 
-Hierbei wird dann der Throughput genutzt. Man wartet dann zwar x Taktzyklen auf das explizite Ergebnis, aber die Ergebnisse kommen nacheinander heraus. 
-(Nach anfänglichen x Taktzyklen werden die Ergebnisse nacheinander herauskommen)

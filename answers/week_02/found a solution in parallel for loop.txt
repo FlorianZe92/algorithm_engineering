@@ -1,8 +1,0 @@
-Vorgehensweise:
-
-Man erstellt eine shared Variable, auf welche nur atomar zugegriffen werden kann.
-Wird diese dann auf einen Wert gesetzt (z.B. False/True), sobald man eine Lösung gefunden hat, kann man 
-eine Bedingung in der for-Schleife nutzen, welche dann besagt, dass in den weiteren Durchläufen keine Arbeit
-mehr verrichten werden soll. (Mittels "continue")
-
-Wichtig: Der Loop wird hierdurch nicht gestoppt, aber es wird unnötige Arbeit verhindert, sodass die Performance davon profitiert

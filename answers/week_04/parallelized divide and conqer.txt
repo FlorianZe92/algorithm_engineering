@@ -1,8 +1,0 @@
-Die Hauptidee ist hierbei, dass bei jedem Divide Schritt zwei neue Tasks erstellt werden.
-Dies wird dann rekursiv durchgeführt, sodass man zahlreiche voneinander unabhängige Arbeitspäckchen erhält.
-Diese können dann parallel bearbeitet werden.
-
-Es ist sinnvoll Taskwait zu verwenden, sodass sichergestellt ist, dass die Aufteilung der Tasks durchgeführt wurde und es somit
-zu keinen Problemen mit der darauffolgenden Bearbeitungsphase kommt.
-
-Zudem sollten die Arbeitspäckchen nicht zu klein werden, da deren Erstellung auch gewisse "Ressourcen" in Anspruch nimmt.

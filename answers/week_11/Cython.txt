@@ -1,6 +1,0 @@
-Python hat das Problem recht langsam zu sein
-Cython soll bei Performance kritischen Berechnungen helfen, eine ähnlichen Speed wie bei C/C++ erreichen.
-Idee: Profiler verwenden und den Bottleneck mittels Cython bearbeiten.
-Cython ist eine kompilierte Sprache (Wird zur Beschleunigung von Python Code genutzt)
-Python ist eine Untermenge von Cython
-Mit Hilfe von Cython können auch C / C++ Libraries gewrapped werden. (Cython als Interface hierbei)

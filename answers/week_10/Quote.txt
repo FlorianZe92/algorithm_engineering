@@ -1,9 +1,0 @@
-Quote: „Premature optimization is the root of all evil“
-
-Man sollte nicht blind einfach irgendwo im Code direkt mit Optimierungen starten.
-Man sollte so wenig wie möglich „invasiv“ in einem fremden Programm optimieren.
-(Man kennt hier die ganzen Abhängigkeiten in einem Programm nicht auf Anhieb)
-
-„Keep it Short and Simple“ als sinnvolle Leitlinie
-Es macht Sinn zunächst zu profilen und Bottlenecks zu finden, welche dann mittels Optimierungen
-gelöst werden können.

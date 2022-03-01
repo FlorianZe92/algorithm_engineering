@@ -1,5 +1,0 @@
-
-Wir sind an die Erfahrung mit mehreren Geräten gewöhnt.
-Die Wiederverwendung von Code ist schwierig, da jeder dieser Beschleuniger seine eigenen Bibliotheken, Tools oder ein eigenes Programmiermodell hat.
-Die Vision von oneAPI ist es, eine architektur- und herstellerübergreifende Portabilität zu erreichen und gleichzeitig die erforderliche Leistung zu bieten.
-oneAPI überbrückt und abstrahiert all diese verschiedenen Geräte und bringt sie auf eine gemeinsame Basis.

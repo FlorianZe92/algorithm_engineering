@@ -1,2 +1,0 @@
-Man hat keine Garantie, dass der Compiler den Code in Vektorinstruktionen übersetzt
-Compilerabhängig, wie gut er mögliche Vektorisierungen erkennt

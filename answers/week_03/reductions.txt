@@ -1,9 +1,0 @@
-Implementierung: reduction(op:list) 
-
-op: Entspricht auszuführende Operation
-list: Enthält die Variablen, welche per Komma getrennt werden
-
-
-Eine Kopie von jeder Variable in der Liste für jeden Thread intern. Reduktion auf der Kopie wird durchgeführt.
-Updates auf der lokalen Kopie.
-Lokalen Kopien werden gemergt zu einem einzelnen Wert und als globale Variable ausgegeben.

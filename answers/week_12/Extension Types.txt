@@ -1,7 +1,0 @@
-
-Diese werden wie normale Klassen in Python genutzt.
-
-Sind sehr hilfreich um C/C++ Code zu wrappen und ein Python ähnliches Interface darzustellen.
-
-Großer Vorteil: Hierdurch kann ein großer Speed Up erreicht werden.
-

@@ -1,4 +1,0 @@
-Race Conditions treten auf, wenn zwei oder mehrere Threads die selbe geteilte Variable verändern möchten.
-Hierbei ist ein exklusiver Zugang für die Threads sinnvoll, sodass Inkohärenzen vermieden werden.
-Ein derartige Zugriff könnte über einen Mutex erstellt werden, oder aber auch über OpenMP Direktiven wie z.B. "pragma omp critical"
-Im Allgemeinen sollten solche Situationen aber minimiert werden, da hierdurch die Performance meist schlechter wird.

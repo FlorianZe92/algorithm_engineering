@@ -1,7 +1,0 @@
-Concurrency
-Hier erreichen verschiedene Aufgaben einen Fortschritt in nahezu der gleichen Zeit.
-Hat man z.B. eine CPU und zwei Aufgaben, so kann man sich bei Concurrency vorstellen, das die CPU
-zwischen den beiden Aufgaben hin und her schaltet. (wenn z.B. auf Speicherzugriffe für eine Aufgabe gewartet werden muss)
-
-Parallelism
-Hierbei hat man mehrere "Arbeiter" (mehrere Kerne oder CPU's), welche gleichzeitig und simultan mehrere Aufgaben bearbeitet.
